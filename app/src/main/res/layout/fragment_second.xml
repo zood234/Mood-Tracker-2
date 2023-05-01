@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondFragment">
+
+
+
+    <LinearLayout
+        android:id="@+id/day7Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/weekAgoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sun"
+            android:textSize="33dp"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:id="@+id/comment7DaysAgo"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_comment_black_48px"
+            android:contentDescription="How many days ago" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/day6Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sixDaysAgoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sat"
+            android:textSize="33dp"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:id="@+id/comment6DaysAgo"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_comment_black_48px"
+            android:contentDescription="How many days ago" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/day5Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fiveDaysAgoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fri"
+            android:textSize="33dp"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:id="@+id/comment5DaysAgo"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_comment_black_48px"
+            android:contentDescription="How many days ago" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/day4Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/fourDaysAgoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Thu"
+            android:textSize="33dp"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:id="@+id/comment4DaysAgo"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_comment_black_48px"
+            android:contentDescription="How many days ago" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/day3Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/threeDaysAgoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Wed"
+            android:textSize="33dp"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:id="@+id/comment3DaysAgo"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_comment_black_48px"
+            android:contentDescription="How many days ago" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/day2Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/twoDaysAgoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tue"
+            android:textSize="33dp"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:id="@+id/comment2DaysAgo"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_comment_black_48px"
+            android:contentDescription="How many days ago" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/day1Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/todayTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mon"
+            android:textSize="33dp"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:id="@+id/commentToday"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_comment_black_48px"
+            android:contentDescription="How many days ago" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/backLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/previous" />
+</LinearLayout>
+
+</LinearLayout>
